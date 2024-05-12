@@ -37,21 +37,24 @@ The reduced features, along with folder and file names, are saved to a CSV file 
 ## Metadata Cleaning
 
 ### Steps
-1. *Data Loading*: Load the metadata file containing information about the music tracks, such as title, artist, album, genre, and other relevant attributes.
+# 1. *Data Loading*: 
+Load the metadata file containing information about the music tracks, such as title, artist, album, genre, and other relevant attributes.
 
-2. *Data Exploration*: Explore the dataset to identify any inconsistencies, missing values, or anomalies that may affect the quality of recommendations.
+# 2. *Data Exploration*: 
+Explore the dataset to identify any inconsistencies, missing values, or anomalies that may affect the quality of recommendations.
 
-3. *Cleaning and Preprocessing*:
+# 3. *Cleaning and Preprocessing*:
    - Handle missing values: Address missing values in the dataset by either imputing them or removing rows with missing information.
    - Standardize data formats: Standardize the format of attributes like genres, artists, and album names to ensure consistency.
    - Remove duplicates: Identify and remove duplicate entries to avoid biasing the recommendation system.
    - Correct errors: Rectify any errors or inconsistencies in the metadata, such as misspelled artist names or incorrect genre labels.
 
-4. *Feature Engineering*:
+# 4. *Feature Engineering*:
    - Extract additional features: Extract additional features from the metadata that may enhance the recommendation algorithm's performance, such as artist popularity or track duration.
    - Encoding categorical variables: Encode categorical variables like genres and artists into numerical representations for machine learning algorithms.
 
-5. *Data Export*: Save the cleaned and preprocessed metadata to a new file for further analysis and integration with the recommendation system.
+# 5. *Data Export*:
+Save the cleaned and preprocessed metadata to a new file for further analysis and integration with the recommendation system.
 
 
 
