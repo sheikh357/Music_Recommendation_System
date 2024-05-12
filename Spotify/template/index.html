@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Music Player Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
 
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .album-art img {
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .song-details {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .controls {
+            margin-top: 20px;
+        }
+
+        .controls button {
+            padding: 10px 20px;
+            margin: 0 5px;
+            border: none;
+            background-color: #1DB954;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .controls button:hover {
+            background-color: #17a24e;
+        }
+
+        .recommended {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .recommended h2 {
+            color: #1DB954;
+        }
+
+        .recommended ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .recommended li {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="album-art">
+            <img src="album-cover.jpg" alt="Album Cover">
+        </div>
+        <div class="song-details">
+            <h2>Song Title</h2>
+            <h3>Artist Name</h3>
+        </div>
+        <div class="controls">
+            <button class="play-btn">Play</button>
+            <button class="pause-btn">Pause</button>
+            <button class="prev-btn">Previous</button>
+            <button class="next-btn">Next</button>
+        </div>
+    </div>
+
+    <div class="recommended">
+        <h2>Recommended Music</h2>
+        <ul>
+            <li>Recommended Song 1</li>
+            <li>Recommended Song 2</li>
+            <li>Recommended Song 3</li>
+        </ul>
+    </div>
+</body>
+</html>
