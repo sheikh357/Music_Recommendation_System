@@ -34,7 +34,7 @@ The reduced features, along with folder and file names, are saved to a CSV file 
 
 
 
-# Music Recommendation System Metadata Cleaning
+## Metadata Cleaning
 
 ## Introduction
 This Jupyter Notebook focuses on cleaning and preprocessing metadata for a music recommendation system. Metadata cleaning is essential to ensure accurate and reliable recommendations by removing inconsistencies, errors, and irrelevant information from the dataset. 
