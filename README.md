@@ -74,3 +74,51 @@ We first select the "Features" collection within the "Spotify_Recommendation_Sys
 ### Inserting Metadata
 Similarly, we select the "Meta_Data" collection within the "Spotify_Recommendation_System" database for storing metadata. We read the metadata from a CSV file named "Processed_MetaData.csv" into a pandas DataFrame, convert it to a dictionary format, and insert it into the MongoDB collection.
 
+Sure, let's structure the README document according to the project phase:
+
+---
+
+# Phase: Music Recommendation System Deployment
+
+## Overview
+
+This phase of the project focuses on deploying a Music Recommendation System using Apache Spark and PyTorch. The system utilizes collaborative filtering with ALS (Alternating Least Squares) model in Spark for recommendation and a simple neural network model implemented in PyTorch for additional recommendation capabilities.
+
+## Requirements
+
+- Python 3.x
+- Apache Spark
+- PySpark
+- PyTorch
+- MongoDB
+- Spark MongoDB Connector
+
+## Usage
+
+1. Clone this repository to your local machine.
+
+2. Install the required Python packages using `pip`:
+   ```
+   pip install pyspark torch pymongo
+   ```
+
+3. Ensure MongoDB is installed and running on your machine. Update the MongoDB URI in the Spark session configuration (`app.py`) with your MongoDB connection string.
+
+4. Run the `app.py` script to train the ALS model, evaluate it, train the PyTorch model, and save both models to the local file system:
+   ```
+   python app.py
+   ```
+
+## Files
+
+- `app.py`: Main Python script that trains ALS and PyTorch models, evaluates ALS model, and saves both models to the local file system.
+- `README.md`: This README file providing an overview of the project and usage instructions.
+
+## Notes
+
+- The provided code uses randomly generated data for demonstration purposes. You'll need to replace it with your actual dataset for real-world usage.
+- The PyTorch model and ALS model paths are specified in the code and can be adjusted as needed.
+
+---
+
+This README provides an overview of the deployment phase of the Music Recommendation System project, including requirements, usage instructions, file descriptions, and additional notes. Feel free to customize it further based on your project's specific requirements and additional details you may want to include.
