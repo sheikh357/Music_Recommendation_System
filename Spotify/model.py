@@ -74,7 +74,7 @@ criterion = nn.BCELoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
 # Training loop for the PyTorch model
-for epoch in range(5):  # Reduced number of epochs for quick demonstration
+for epoch in range(40):  # Reduced number of epochs for quick demonstration
     for data, target in dataloader:
         optimizer.zero_grad()
         output = model(data)
