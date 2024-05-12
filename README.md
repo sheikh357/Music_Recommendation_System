@@ -122,3 +122,8 @@ This phase of the project focuses on deploying a Music Recommendation System usi
 ---
 
 This README provides an overview of the deployment phase of the Music Recommendation System project, including requirements, usage instructions, file descriptions, and additional notes. Feel free to customize it further based on your project's specific requirements and additional details you may want to include.
+
+![ca1c3901-facc-42d5-9339-821cd75c808c](https://github.com/sheikh357/Music_Recommendation_System/assets/128331365/a2a8b7d3-3fd5-46f2-bdb7-31de14990447)
+![Screenshot from 2024-05-12 23-39-55](https://github.com/sheikh357/Music_Recommendation_System/assets/128331365/1fac0aa6-8b5b-4309-990a-19c1a8c244cc)
+
+
