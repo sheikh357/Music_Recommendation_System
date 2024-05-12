@@ -59,4 +59,17 @@ Explore the dataset to identify any inconsistencies, missing values, or anomalie
 Save the cleaned and preprocessed metadata to a new file for further analysis and integration with the recommendation system.
 
 
+# MongoDB Data Insertion
+
+
+This Jupyter Notebook demonstrates how to insert data into MongoDB Atlas, a cloud-based database service, using Python and the PyMongo library. We'll be inserting data into two collections within a MongoDB database named "Spotify_Recommendation_System": one for audio features and another for metadata.
+
+## Connection to MongoDB Atlas
+We start by establishing a connection to MongoDB Atlas using the provided URI. This URI contains the necessary authentication credentials and connection details to access the MongoDB cluster. We create a MongoClient object and specify the server API version to use.
+
+## Inserting Audio Features
+We first select the "Features" collection within the "Spotify_Recommendation_System" database. Then, we read the audio features from a CSV file named "extracted_features.csv" into a pandas DataFrame. Next, we convert the DataFrame to a dictionary where each row represents a document to be inserted into the MongoDB collection. Finally, we use the insert_many() method to insert the data into the collection.
+
+## Inserting Metadata
+Similarly, we select the "Meta_Data" collection within the "Spotify_Recommendation_System" database for storing metadata. We read the metadata from a CSV file named "Processed_MetaData.csv" into a pandas DataFrame, convert it to a dictionary format, and insert it into the MongoDB collection.
 
